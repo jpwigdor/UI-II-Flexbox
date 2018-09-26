@@ -64,3 +64,131 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	width: 880px;
+	margin: 0 auto;
+	display:flex;
+	flex-direction:column;
+}
+
+a:link {
+	text-decoration: none;
+	color: grey;
+}
+
+a:visited {
+	color: grey;
+}
+
+.container .nav{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	padding: 10px 0px;
+	color: grey;
+}
+.container .nav-child {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container .header  {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+	padding: 30px;
+}
+
+.container header section div p {
+	font-size: 20px;
+	text-align: center;
+	padding: 5px 40px;
+	border: 2px solid black;
+}
+
+.container .header-text {
+	text-align: center;
+	font-size: 90px;
+}
+
+/* .container .header-image {
+
+} */
+
+.container .top-content {
+	display: flex;
+}
+
+.container .top-text {
+	padding: 10px;
+}
+
+.container .middle-img {
+	padding: 10px 0px;
+}
+
+.container .bottom-content {
+	display: flex;
+	padding: 10px 5px;
+}
+
+/* .container .bottom-text {
+} */
+
+.container .contact p {
+	padding: 5px 0px;
+}
+
+.container footer {
+	text-align:center;
+	padding: 20px 0px;
+}
+
+/* services.css */
+
+.SmallHR {
+	size: 2px;
+	padding: 2px;
+	margin-bottom;
+}
+
+.services-text {
+	display:flex;
+	flex-direction:column;
+	padding: 30px 0px;
+}
+
+.row {
+	display: flex;
+}
+
+.box {
+	border: 1px solid black;
+	background: #F4F3F4;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.LMbutton {
+	border: 1px black solid;
+	display: inline-block;
+	border-radius: 5px;
+	background: white;
+	padding: 8px 30px;
+	font-size: 14px;
+}
+
+.services-facts {
+	display:flex;
+	padding: 20px 0px;
+}
+
+.fact-list {
+	padding: 20px;
+}
+
+.fact-list li {
+	padding: 5px;
+}
+
