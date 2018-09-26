@@ -150,11 +150,10 @@ a:visited {
 .SmallHR {
 	size: 2px;
 	padding: 2px;
-	margin-bottom;
 }
 
 .services-text {
-	display:flex;
+	display: flex;
 	flex-direction:column;
 	padding: 30px 0px;
 }
@@ -167,6 +166,7 @@ a:visited {
 	border: 1px solid black;
 	background: #F4F3F4;
 	justify-content: space-between;
+	margin: 20px;
 	padding: 20px;
 }
 
@@ -175,6 +175,7 @@ a:visited {
 	display: inline-block;
 	border-radius: 5px;
 	background: white;
+	margin: 20px 0px 0px 0px;
 	padding: 8px 30px;
 	font-size: 14px;
 }
@@ -182,6 +183,10 @@ a:visited {
 .services-facts {
 	display:flex;
 	padding: 20px 0px;
+}
+
+.services-facts-text {
+	margin: 0px 20px 0px 0px;
 }
 
 .fact-list {
